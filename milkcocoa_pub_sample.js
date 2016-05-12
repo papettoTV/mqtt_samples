@@ -1,6 +1,6 @@
 var mqtt = require('mqtt');
 
-var app_id = 'appleimob06ca';
+var app_id = '<app_id>';
 var secure = true;
 var url = secure ? 'mqtts://'+app_id+'.mlkcca.com:8883' : 'mqtt://'+app_id+'.mlkcca.com:1883';
 
